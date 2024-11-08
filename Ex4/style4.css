@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    background-color: #e4ebf0;
+    display: block;
+}
+
+header {
+    background-color: #433d3d;
+    padding: 20px 0px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Jost";
+    font-weight: normal;
+    text-align: center;
+    color: #e4ebf0;
+}
+
+main {
+    margin: 30px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+label, #res {
+    color: #433d3d;
+    font-size: 22px;
+    font-family: "Jost";
+    margin: 30px 0px 10px;
+    display: block;
+}
+
+p {
+    color: #433d3d;
+    font-size: 19px;
+    font-family: "Jost";
+    margin: 10px 0px;
+    display: block;
+}
+
+input {
+    margin: auto;
+    height: 22px;
+    background-color: #f4f6f8;
+    border: 3px solid #433d3d;
+    border-radius: 5px;
+    font-family: "Jost";
+    font-size: 19px;
+}
+
+#btCalcular {
+    background-color: #e4ebf0;
+    border: 3px solid #433d3d;
+    color: #433d3d;
+    font-size: 22px;
+    font-family: "Jost";
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin: 30px auto 10px;
+}
+
+#btCalcular:hover {
+    background-color: #433d3d;
+    color: #e4ebf0;
+    border: 3px solid #e4ebf0;
+}

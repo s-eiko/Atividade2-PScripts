@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Preço de venda</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Exercício 2</h1>
+    </header>
+    <main>
+        <section id="info">
+            <label for="pUnit">Preço unitário:</label>
+            <input type="number" step="0.01" min="0.01" id="pUnit" required>
+            <p id="erroUnit"></p>
+
+            <label for="qnt">Quantidade vendida:</label>
+            <input type="number" step="1" min="1" id="qnt" required>
+            <p id="erroQnt"></p>
+
+            <label for="desc">Porcentagem de desconto:</label>
+            <input type="number" step="1" min="0" id="desc" required>
+            <p id="erroDesc"></p>
+
+            <button id="btCalcular" value="Calcular">Calcular</button>
+        </section>
+        <section id="res">
+
+        </section>
+    </main>
+
+    <script src="script2.js" type="text/javascript"></script>
+</body>
+</html>
